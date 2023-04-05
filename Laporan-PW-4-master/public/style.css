@@ -1,0 +1,219 @@
+/* Header section */
+header {
+  background-color: #c06d1f;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* style for header */
+header {
+  background-color: #411fda;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+  background-image: url(https://source.unsplash.com/1600x900/?sports);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Featured section */
+.featured {
+  padding: 40px 0;
+}
+
+.featured-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.featured-item:last-child {
+  margin-bottom: 0;
+}
+
+.feature-item img {
+  display: block;
+  margin: auto;
+}
+
+.featured-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.featured-item h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.featured-item p {
+  margin: 0;
+}
+
+/* Footer section */
+footer {
+  background-color: #411fda;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+/* Artikel section */
+.artikel {
+  padding: 40px 0;
+}
+
+.artikel h3 {
+  text-align: center;
+}
+
+.artikel-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.artikel-item:last-child {
+  margin-bottom: 0;
+}
+
+.artikel-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.artikel-item h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.artikel-item p {
+  margin: 0;
+}
+
+
+/* Contact section */
+.contact {
+  padding: 40px 0;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.contact label {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.contact input,
+.contact textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.contact textarea {
+  height: 150px;
+}
+
+.contact .btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact .btn:hover {
+  background-color: #555;
+}
+
+.contact-info {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-info h3 {
+  margin-top: 0;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-top: 10px;
+}
